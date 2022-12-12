@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="100" parallel="tests" name="Failed suite [Mobile]" guice-stage="DEVELOPMENT">
+  <test thread-count="100" parallel="tests" name="AndroidAppTest 1(failed)">
+    <classes>
+      <class name="AndroidApp">
+        <methods>
+          <include name="AndroidApp1"/>
+        </methods>
+      </class> <!-- AndroidApp -->
+    </classes>
+  </test> <!-- AndroidAppTest 1(failed) -->
+</suite> <!-- Failed suite [Mobile] -->
